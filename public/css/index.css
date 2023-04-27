@@ -1,0 +1,160 @@
+:root {
+    background-color: white;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    color:blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+div.box {
+    background-color: green;
+}
+
+div.box > p {
+    background: red;
+}
+
+.brown {
+    background: rgb(89, 65, 5);
+    color: white;
+}
+
+ul > li {
+    background: red;
+}
+
+button.header-button + span {
+    background: red;
+}
+
+p.susid ~ p {
+    background: blue;
+    color: white;
+}
+
+.salo, #bread {
+    background: yellow;
+}
+
+div.first-task>ul>li:first-child {
+    color:white;
+}
+
+div.second-task>ul:first-child>li:first-child {
+    color: yellow;
+}
+
+div.third-task>ul:not(:first-child)>li:not(:first-child) {
+    background: yellow;
+}
+
+div.four-task>ul>li:last-child {
+    background: yellow;
+}
+
+div.five-task>ul:last-child>li:last-child {
+    color: white;
+}
+
+.only-child-task div:only-child {
+    color: red;
+}
+
+.seven-task p:first-of-type {
+    background: red;
+}
+
+.eight-task p:last-of-type {
+    background: red;
+}
+
+.nine-task p:only-of-type {
+    background: yellowgreen;
+}
+
+.lesson-three-task-one a[href] {
+    color: white;
+}
+
+.lesson-three-task-two li[value] {
+    color: yellow;
+}
+
+.lesson-three-task-three li[value="3"] {
+    background: red;
+}
+
+.lesson-three-task-four button[class~="primary"] {
+    background: blue;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lesson-three-task-five button[class|="secondary"] {
+    background: red;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lesson-three-task-six li[class^="b"] {
+    background: white;
+    color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lesson-three-task-seven li[class*="on"] {
+    background: white;
+    color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lesson-three-task-eight span[class$="s"] {
+    background: yellowgreen;
+    color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lesson-three-task-nine h2::first-letter {
+    color: red;
+}
+
+.lesson-three-task-ten::first-line {
+    background: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder {
+    background: red;
+    color: white;
+    padding-left: 10px;
+}
+
+.lesson-three-task-twelve li::before {
+    content: "➤ ";
+}
+
+.lesson-three-task-thirteen li::after {
+    content: " ➤";
+}
